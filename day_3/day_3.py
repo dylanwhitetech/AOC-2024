@@ -3,7 +3,7 @@
 import re
 
 
-day_3_file = "/Users/dyl13740/AdventofCode2024/AOC-2024/day_3/day_3_input_2.txt"
+day_3_file = "/Users/dyl13740/AdventofCode2024/AOC-2024/day_3/day_3_input_1.txt"
 
 
 # multiply numbers that are stored in memory
@@ -35,7 +35,7 @@ for line in day_3_input:
 
     # Convert the results to int
     int_matches = [(int(x), int(y)) for x, y in matches]
-    print(int_matches)
+    # print(int_matches)
 
     # Loop through the list and extract numbers
     numbers = []
@@ -48,3 +48,4 @@ for line in day_3_input:
 
 
 print(f"Part 1: {total}")
+
